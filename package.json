@@ -1,0 +1,48 @@
+{
+  "name": "awesome-ui-react",
+  "version": "1.0.0",
+  "description": "An awesome ui component library for React!",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianye0718/awesome-ui-react.git"
+  },
+  "author": "Ye Tian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tianye0718/awesome-ui-react/issues"
+  },
+  "homepage": "https://github.com/tianye0718/awesome-ui-react#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@storybook/addon-essentials": "^7.6.5",
+    "@storybook/addon-interactions": "^7.6.5",
+    "@storybook/addon-links": "^7.6.5",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.5",
+    "@storybook/react": "^7.6.5",
+    "@storybook/react-vite": "^7.6.5",
+    "@storybook/test": "^7.6.5",
+    "@types/react": "^18.2.45",
+    "@types/styled-components": "^5.1.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.9.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "storybook": "^7.6.5",
+    "styled-components": "^6.1.1",
+    "typescript": "^5.3.3"
+  }
+}
